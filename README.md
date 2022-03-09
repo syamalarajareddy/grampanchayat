@@ -1,1 +1,1 @@
-# grampanchayat Information System
+# Gram panchayati Raj Information System
