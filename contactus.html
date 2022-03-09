@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+
+  }
+
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit],
+  a {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  input[type=submit]:hover,
+  a:hover {
+    background-color: #45a049;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .center {
+    margin: auto;
+    width: 40%;
+  }
+</style>
+</head>
+
+<body>
+  <div class="center">
+    <h3>Contact Form</h3>
+
+
+    <div class="container" style="height: 650px;width: 600px;">
+      <form>
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter First Name">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Enter Last Name">
+
+        <label for="pno">Phone Number</label><br>
+        <input type="text" id="pno" name="pno" placeholder="Enter phone number"><br>
+
+        <label for="districts">Districts</label><br>
+        <select id="districts" name="districts">
+
+          <option value="" disabled selected hidden>Select your option</option>
+          <option value="Anantapur"> Anantapur</option>
+          <option value="Chittor">Chittor</option>
+          <option value="East Godavari">East Godavari</option>
+          <option value="Guntur">Guntur</option>
+          <option value="Kadapa">Kadapa</option>
+          <option value="Krishna">Krishna</option>
+          <option value="Kurnool">Kurnool</option>
+          <option value="Prakasam">Prakasam</option>
+          <option value="Nellore">Nellore</option>
+          <option value="Srikakulam">Srikakulam</option>
+          <option value="Visakhapatnam">Visakhapatnam</option>
+          <option value="Vijayanagaram">Vijayanagaram</option>
+          <option value="West Godavari">West Godavari</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Enter your query here" style="height:200px"></textarea>
+
+        <div>
+
+
+          <input type="submit" value="Submit" style="font-size:16px">
+          <a href="index.html" style="float: right;">Home</a>
+        </div>
+      </form>
+    </div>
+
+</body>
+
+</html>
